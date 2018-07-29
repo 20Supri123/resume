@@ -1,0 +1,150 @@
+.main{
+  border: 2px solid blue;
+  padding: 2%;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  border: 2px solid green;
+  padding: 2%;
+  margin:2%;
+  width: 30%;
+  text-align: center;
+  font-size: 10px;
+}
+#name{
+  color:purple;
+  font-size: 30px;
+  text-align: center;
+}
+.left img{
+  width: 50%;
+  border-radius: 50%;
+  border:2px solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  color:brown;
+}
+a{
+  color:green;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+.right{
+  border: 2px solid green;
+  padding: 2%;
+  margin: 2%;
+  width: 70%;
+
+}
+@media only screen and (min-width: 0px) and (max-width:480px) {
+  .main{
+    border: 2px solid blue;
+    padding: 2%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .left{
+    border: 2px solid green;
+    padding: 2%;
+    margin:2%;
+    width: 90%;
+    text-align: center;
+    background-color: skyblue;
+    font-size: 20px;
+  }
+  #name{
+    color:purple;
+    font-size: 30px;
+    text-align: center;
+  }
+  .table1{
+    width: 90%;
+    overflow-x: auto;
+  }
+  .left img{
+    width: 50%;
+    border-radius: 50%;
+    border:2px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+    color:brown;
+  }
+  a{
+    color:green;
+    font-size: 50px;
+    word-wrap: break-word;
+  }
+
+  .right{
+    border: 2px solid yellow;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+    background-color: skyblue;
+  }
+
+}
+@media only screen and (min-width: 481px) and (max-width:720px) {
+  .main{
+    border: 2px solid blue;
+    padding: 2%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .left{
+    border: 2px solid green;
+    padding: 2%;
+    margin:2%;
+    width: 40%;
+    text-align: center;
+    background-color: skyblue;
+    font-size: 20px;
+  }
+  #name{
+    color:purple;
+    font-size: 30px;
+    text-align: center;
+  }
+  .table1{
+    width: 90%;
+    overflow-x: auto;
+  }
+  .left img{
+    width: 50%;
+    border-radius: 50%;
+    border:2px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h2{
+    color:brown;
+  }
+  a{
+    color:green;
+    font-size: 50px;
+    word-wrap: break-word;
+  }
+  .one table{
+    width:auto;
+  }
+  .right{
+    border: 2px solid yellow;
+    background-color: lightgreen;
+    padding: 2%;
+    margin: 2%;
+    width: 40%;
+
+  }
+
+}

@@ -1,0 +1,51 @@
+{
+  "details":{
+  "image":"download.png",
+  "name":"Supriya",
+  "phno":"+917447454582",
+  "email":"supriya.konakanchi20@gmail.com",
+  "address":"NH9,perakalapadu,kanchikacherla"
+},
+"career":{
+    "text":"To pursue a challenge career"
+  },
+  "Education":[{
+    "qualification":"B.Tech",
+    "Institute":"MIC college",
+    "YearofPassing":"2020",
+    "Percentage":"93.5%"
+  },
+  {
+  "qualification":"Intermediate",
+  "Institute":"Narayana",
+  "YearofPassing":"2016",
+  "Percentage":"89.5%"
+},
+{
+  "qualification":"SSC",
+  "Institute":"SGHS",
+  "YearofPassing":"2014",
+  "Percentage":"95%"
+}
+],
+"technical":[{
+  "title":"programming languages",
+  "info":["c,c++,java,python"]
+},
+{
+  "title":"Databases",
+  "info":["oracle,sql,php"]
+},
+{
+  "title":"operatingsystems",
+  "info":["unbuntu,kali linux,mac"]
+}
+],
+"achievements":[
+  {
+  "t":"certificate in national level talent test"
+  },
+  {
+    "t":"first prize in cricket tournament"
+    }]
+}
